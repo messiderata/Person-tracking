@@ -4,7 +4,7 @@ import threading
 import time
 
 # Load your weight
-model = YOLO('Actual.pt')
+model = YOLO('best.pt')
 
 # Set up the Firmata connection to the Arduino board
 board = Arduino('COM5')  # Update with your port
